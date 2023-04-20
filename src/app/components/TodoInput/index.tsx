@@ -3,8 +3,8 @@ import React from 'react';
 import styled from 'styled-components';
 const Box = styled.div`
   display: flex;
-  padding:15px 25px;
-  width 100% auto;
+  padding: 15px 25px;
+  width: 100% auto;
   font-size: 1.1em;
   border-bottom: 1px solid #eee;
 `;
