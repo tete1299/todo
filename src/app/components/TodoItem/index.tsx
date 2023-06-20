@@ -20,7 +20,7 @@ const TodoContent = styled.span<{ checked: boolean }>`
   -webkit-line-clamep: 3;
   -webkit-box-orient: vertical;
   cursor: text;
-  text-decoration: ${props => (props.checked ? 'line-throgh' : 'initial')};
+  text-decoration: ${props => (props.checked ? 'line-through' : 'initial')};
   color: ${props => (props.checked ? '#aaa' : '#212121')};
 `;
 export default function TodoItem({ todo }: { todo: ITodoItem }) {
